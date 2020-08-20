@@ -1,0 +1,192 @@
+*{margin: 0;padding: 0;}
+body {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.7;
+  color: #828282;
+  background: #fff;
+}
+
+.color2{
+  color: #A0258F;
+}
+
+.top {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 0px 0;
+}
+.top .num, .top .top-social,.top .site {
+  display: inline-block;
+  margin: 0;
+  padding: 5px 12px;
+}
+@media screen and (max-width: 768px) {
+  .top .num, .top .top-social,.top .site {
+    padding: 5px 10px;
+  }
+}
+.top .site {
+  float: left;
+  font-weight: 300;
+  margin-top: 0px;
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+@media screen and (max-width: 480px) {
+  .top .site {
+    display: none;
+  }
+    
+}
+.top .num {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 13px;
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+.top .top-social {
+  border-left: 1px solid rgba(0, 0, 0, 0.08);
+  border-right: 1px solid rgba(0, 0, 0, 0.08);
+}
+.top .top-social li a {
+    padding: 7px 7px;
+    font-size: 14px;
+    color: black;
+}
+.down-nav{
+    padding: 0 5%;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.my-nav-brand{
+    font-size: 1.2em;
+}
+
+.carousel-inner > .carousel-item > img {
+  height: 85vh;
+}
+
+@media screen and (max-width: 480px) {
+    .my-nav-brand{
+        font-size: 0.8em;
+    }
+    #f-email{
+      font-size: 0.8em;
+    }
+    .down-nav{
+      position: unset;
+    }
+    .carousel-inner > .carousel-item > img {
+      height: unset;
+      
+    }
+}
+
+
+.facility{
+  z-index: -99;
+}
+.facility .card img{
+  height:200px;
+  border-radius: 50%;
+}
+.facility .card{
+  border: none;
+  text-align: center;
+  z-index: -100;
+}
+.facility .card .card-body h5{
+  font-weight: bold;
+}
+
+
+
+.register-counter{
+  background-repeat: no-repeat;
+}
+
+#gallery h4 span{
+  border: 2px solid #17a2b8;
+  border-radius: 20%;
+  padding: 0px;
+  color: #17a2b8;
+  font-size: em;
+  font-family: 'Kaushan Script', cursive;
+
+}
+#gallery .gallery-img{
+  height: 250px;
+  width: 100%;
+  margin-bottom: 2%;
+ 
+}
+
+.gallery-img img{
+  margin: 0.5%;
+  border-radius: 5%;
+}
+
+#gallery .controls-top i{
+  font-size: 2em;
+  color:#17a2b8;
+}
+
+.mngmt img{
+  height:220px;
+}
+
+#map {
+  height: 400px;  /* The height is 400 pixels */
+  width: 100%;  /* The width is the width of the web page */
+ }
+
+ .timer{
+   border-radius: 50%;
+   border: 2px solid white;
+   height: 150px;
+   width: 150px;
+   padding-top:35px;
+ }
+ .c-txt-lg{
+   font-size: 2em;
+ }
+
+.aboutus{
+  z-index: -99;
+}
+
+.aboutus #about {
+  z-index: -99;
+}
+ .aboutpara{
+   font-size: 1rem;
+ }
+
+ @media screen and (max-width: 480px) {
+  .aboutpara{
+    font-size: 1rem;
+  }
+ }
+
+ .Enquiry-form{
+   width: 100%;
+   margin: auto;
+ }
+
+
+ .mapouter{position:relative;
+  text-align:right;
+  height:100%;
+  width:100%;
+}
+ .gmap_canvas {overflow:hidden;
+  background:none!important;
+  height:100%;
+  width:100%;
+}
+
+
+ 
